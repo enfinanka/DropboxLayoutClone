@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'SharpGroteskWide', sans-serif;
+}
+
+.headerContainer {
+  position: absolute;
+  width: 98.9%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContainer h1 {
+  color: white;
+  margin-right: 50px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+#leftNavLinks {
+  color: white;
+}
+
+#rightNavLinks {
+  padding: 0 0 0 60px;
+}
+
+.navContainer li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 1.2em;
+}
+
+#wrapperForContainer {
+  display: flex;
+}
+
+#redContainer {
+  background: #61082b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64%;
+  height: 100vh;
+}
+
+#whiteContainer {
+  background: white;
+  width: 36%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.redBoxContent {
+  font-size: 2.5em;
+  width: 700px;
+  margin-left: 20%;
+}
+
+.redBoxContent h1 {
+  margin-bottom: 50px;
+  line-height: 80px;
+  color: #b4d0e7;
+}
+
+.redBoxContent p {
+  width: 350px;
+  font-size: 0.5em;
+  line-height: 27px;
+  color: whitesmoke;
+}
+
+.whiteBoxContent h2 {
+  font-size: 1.8em;
+}
+
+.whiteBoxContent p {
+  font-size: 0.8em;
+}
+
+.whiteBoxContent a {
+  text-decoration: none;
+  color: blue;
+}
+
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  width: 55%;
+  margin-top: 30px;
+}
+
+.registrationText {
+  padding: 12px 12px 12px 12px;
+  margin-bottom: 20px;
+  font-size: 1.05em;
+}
+
+#registrationForm p {
+  color: gray;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#registrationForm a {
+  color: blue;
+}
+
+.checkboxInline {
+  display: inline-block;
+  width: 100%;
+  color: gray;
+}
+
+.formCheckbox {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.submitForm {
+  padding: 10px;
+  background: #007af5;
+  border: 0;
+  color: white;
+  margin-top: 20px;
+  font-size: 1.05em;
+}
+
+.submitForm2 {
+  padding: 10px;
+  background: white;
+  border: 1px solid black;
+  color: black;
+  margin-top: 20px;
+  font-size: 1.05em;
+}
