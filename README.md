@@ -1,3 +1,2 @@
-# TestingBootstrap
-Testing Bootstrap for learning
 # DropboxLayoutClone
+An attempt to clone Dropbox.com layout
